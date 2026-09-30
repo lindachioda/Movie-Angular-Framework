@@ -1,0 +1,16 @@
+
+.card-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: lightskyblue;
+    margin-top: 50px;
+    text-align: center;
+}

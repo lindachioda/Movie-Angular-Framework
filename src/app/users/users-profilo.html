@@ -1,0 +1,18 @@
+<div *ngIf="authService.isAuthenticated(); else noAccesso">
+
+     <div class="container-profiles" *ngIf="user">
+         <h1>{{user.name}}</h1>
+         <p><span [appHighlight]="`rgba(135, 206, 250, 0.669)`">Email:</span> {{user.email}}</p>
+         <p><span [appHighlight]="`rgba(135, 206, 250, 0.669)`">Ruolo:</span> {{user.ruolo}}</p>
+         <p><span [appHighlight]="`rgba(135, 206, 250, 0.669)`">Film preferiti:</span></p>
+         <ul>
+            <li *ngFor="let film of filtratiPreferiti">{{film.title}}</li>
+         </ul>
+     </div>
+
+
+</div> 
+
+<ng-template #noAccesso>
+    <p class="no-accesso">Non sei autenticato!</p>
+</ng-template>

@@ -1,0 +1,11 @@
+
+<h2>I FILM POPOLARI DEL MOMENTO!</h2>
+
+
+<div class="card-flex">
+
+<app-film *ngFor="let film of films" [film]="film">
+    <ng-content></ng-content>
+</app-film>
+
+</div>

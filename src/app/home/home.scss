@@ -1,0 +1,40 @@
+
+
+h2 {
+     text-align: center;
+     margin-top: 80px;
+     font-family: "Jersey 10", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 3.8em;
+}
+
+ h3, p {
+     text-align: center;
+     margin-top: 50px;
+     color: lightskyblue;
+ }
+
+ @media (max-width: 768px) {
+     h2 {
+      font-size: 2em; 
+     }
+     h3 {
+          font-size: 1.3em;
+     }
+     p {
+          font-size: 0.8em;
+     }
+ }
+
+ @media (max-width: 400px) {
+     h2 {
+      font-size: 1.8em; 
+     }
+     h3 {
+          font-size: 1.2em;
+     }
+     p {
+          font-size: 0.8em;
+     }
+ }

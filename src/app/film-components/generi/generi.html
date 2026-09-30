@@ -1,0 +1,10 @@
+
+<h2>Scegli il genere che fa per te:</h2>
+
+<div class="container-bottoni">
+   <div class="buttons-generi" *ngFor="let genere of generi">
+     <button matFab extended (click)="clikGeneri(genere)">{{genere.name}}</button>
+   </div>
+</div>
+
+<app-generi-dettaglio [genere]="genereDettaglio" [films]="films"></app-generi-dettaglio>

@@ -1,0 +1,33 @@
+
+.container-profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.no-accesso {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+p, li {
+    font-size: 1.2em;
+    color:lightskyblue;
+}
+
+h1 {
+    color:cornflowerblue;
+    margin-bottom: 25px;
+}
+
+span {
+    color:black;
+}
+
+@media (max-width: 768px) {
+    p, li {
+    font-size: 1em;
+}
+}

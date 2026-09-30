@@ -1,0 +1,64 @@
+
+
+
+.home {
+    color: rgb(15, 15, 192)!important;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.fa-house {
+     color: rgb(15, 15, 192)!important;
+}
+
+
+.navbar {
+    background-color:lightskyblue;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 1.2em;
+}
+
+.nav-item:hover, .nav-link:hover {
+    color:blue;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+    margin-left: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+@media (max-width: 768px){
+    i {
+      margin-right: 10px; }
+
+    .navbar-brand {
+       margin-left: 20px;
+       font-size: 2.7em;
+    }
+
+    .home {
+        margin-top: 10px;
+    }
+
+    .navbar-nav {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+     .navbar-brand {
+       margin-left: 20px;
+       font-size: 2.2em;
+    }
+
+}

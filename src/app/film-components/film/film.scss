@@ -1,0 +1,54 @@
+
+.container-card {
+  max-width: 350px;
+  margin-top: 50px;
+  border-color: lightskyblue;
+  border-width: 5px;
+}
+
+.container-voto {
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+}
+
+.container-voto {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+img, mat-card-subtitle, .overview {
+    margin: 15px;
+}
+
+mat-card-title {
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+span {
+  font-weight: 700;
+  color: rgba(0, 0, 255, 0.582);
+}
+
+.overview {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width:400px) {
+  .container-card{
+    max-width: 300px;
+  }
+}

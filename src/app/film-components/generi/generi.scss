@@ -1,0 +1,60 @@
+
+app-generi-dettaglio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: inherit;
+    font-size: 0.8em;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: lightskyblue;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-bottoni {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    margin: 50px 100px;
+    
+}
+
+mat-grid-tile {
+  background: lightblue;
+}
+
+.buttons-generi {
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 60px;
+        border-radius: inherit;
+        font-size: 0.6em;
+    }
+
+    .buttons-generi {
+        width: 60px;
+    }
+
+    .container-bottoni {
+        margin: 50px 30px;
+    }
+
+    
+}

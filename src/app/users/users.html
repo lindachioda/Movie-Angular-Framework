@@ -1,0 +1,13 @@
+
+<h2>Lista utenti</h2>
+
+
+<div class="button-container">
+     <button type="button" 
+     class="btn btn-primary" 
+     *ngFor="let user of users" 
+     (click)="clickUser(user)">{{user.name}}</button>
+</div>
+
+
+ <app-users-profilo [user]="userSelezionati" [films]="films" [favorites]="favorites"></app-users-profilo>

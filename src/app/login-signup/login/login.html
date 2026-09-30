@@ -1,0 +1,21 @@
+ <p *ngIf="message">{{message}}</p> <!--va chiamato anche qui per leggerlo nel dom-->
+
+<form #formlogin="ngForm" (ngSubmit)="onSubmitLog(formlogin)">
+
+<div class="example-container">
+  <mat-form-field>
+    <mat-label>Email address</mat-label>
+    <input matInput type="email" name="email" ngModel class="form-control" id="floatingEmail" placeholder="pat@example.com"/>
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input matInput type="password" name="password" ngModel class="form-control" id="floatingPassword" placeholder="Password"/>
+  </mat-form-field>
+</div>
+
+<button matButton="filled" type="submit">Accedi</button>
+
+</form>
